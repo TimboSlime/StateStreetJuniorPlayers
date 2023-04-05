@@ -1,0 +1,125 @@
+body{padding:0;
+    margin: 0;
+    background-image: url(../img/carpet.jpg);
+    background-attachment: fixed;
+}
+
+  
+.huddy{
+    text-align: center;
+    width: 9.5rem;
+    height:100% ;
+    background-color: aliceblue;
+    position: fixed;
+    margin-left: 0;
+    top: 0;
+    line-height: 3rem;
+}
+#promo{
+    width: 95%;
+   
+    padding-top: -1;
+    transition-duration:  .7s;
+    
+}
+.coming_soon{
+    line-height: 0px;
+    padding-bottom: 0;
+    font-style: italic;
+    font-size: .7rem;
+}
+#promo:hover{
+    width: 200%;
+
+    margin-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.hud{
+    color: black;
+    text-decoration: underline;
+    display: block;
+    margin-left: 0;
+   font-size: 1.3rem;
+}
+
+.hud:hover{
+    color: crimson;
+}
+
+a:hover{color: olivedrab;
+
+
+}
+h1{
+    font-size: 3rem;
+    text-align: center;
+    line-height: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    margin: 0 0 .5rem 0;
+}
+.page{
+    border: 0.3rem solid saddlebrown;
+  margin-left: 25%;
+ background-color: blanchedalmond;
+ text-align: center;
+ padding-top: 1rem;
+ box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+ margin-top: 1.5rem;
+
+
+ max-width: 50rem;
+ height: auto;
+ text-align: left;
+}
+.aud{
+    font-size: 2rem;
+    text-align: center;
+    display: block;
+    margin: 0;
+    
+}
+.one{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 1rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    margin-top: 3rem;
+    
+}
+
+.pic_one,.pic_two,.pic_three{
+    max-width: 13rem;
+    max-height: 13rem;
+    border: 0.3rem solid rgb(91, 156, 210);
+}
+
+.bio_text{
+    margin-inline: auto;
+    font-size: 1rem;
+    margin-top: 0;
+}
+@media(max-width:600px){
+    .huddy{
+        width:7.1em ;
+    }
+    .hud{
+        font-size: 1.1rem;
+    }
+}
+@media(max-width:500px){
+    .page{
+        text-align: center;
+    }
+  .pic_one,.pic_two,.pic_three{
+    margin-top: 3rem;
+    width: 7.3rem;
+  }
+  h2{
+    text-align: center;
+  }
+
+}

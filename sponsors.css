@@ -1,0 +1,193 @@
+body{
+    background-image: url(../img/image36.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+}
+.huddy{
+    text-align: center;
+    width: 9.5rem;
+    height:100%;
+    background-color: aliceblue;
+    position: fixed;
+    margin-left: 0;
+    top: 0;
+    line-height: 3rem;
+}
+#promo{
+    width: 95%;
+    height: 200px;
+    padding-top: -1;
+    transition: 1s ease;
+    z-index: 99;
+    
+}
+.coming_soon{
+    line-height: 0px;
+    padding-bottom: 0;
+    font-size: .7rem;
+    font-style: italic;
+    
+}
+#promo:hover{
+    width: 200%;
+    height: 500px;
+    margin-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.hud{
+    color: black;
+    text-decoration: underline;
+    display: block;
+    margin-left: 0;
+    font-size: 1.3rem;
+}
+.hud:hover{
+    color: crimson;
+}
+.header{
+    color: aliceblue;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-stretch: semi-expanded;
+}
+.click_tip{
+    color: aqua;
+    font-size:1.4rem ;
+    margin-top: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card_text{
+    text-align: center;
+    margin-left: 9.5rem;
+    transition: .5s ease;
+}
+
+
+.donate_tip{
+    color: aliceblue;
+    font-size: 1.5rem;
+    transition: 0.5s ease;
+    transition: 0.5s ease;
+}
+.ads_p{
+    color:yellow;
+    font-size: 2rem;
+    transition: 0.5s ease;
+    transition: 0.5s ease;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+}
+.donate_link{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s ease;
+}
+.donate_link:visited{
+    color:inherit;
+}
+
+.donate_today{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s ease;
+    padding: 0.2rem;
+}
+.ads{
+    background-color: black;
+    color:yellow;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    padding: 0.2rem;
+}
+.donate_link:hover{
+    transform: scale(1.2);
+    color: hotpink
+}
+.donate_tip:hover{
+    transform: scale(1.2);
+    color: hotpink
+}
+.donate_today:hover{
+    transform: scale(1.2);
+    color: hotpink
+}
+h2{
+    color: hotpink;
+    text-align: center;
+    font-size: 5rem;
+    margin-left: 9.2rem;
+    margin-bottom: 0;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1rem;
+    margin-left: 10rem;
+    margin-right: 1rem;
+    justify-content: center;
+}
+.card_link{
+margin-bottom:-4px;
+}
+.b_card{
+    transition: .5s ease;
+    border: 0.3rem solid black;
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+}
+.b_card:hover{
+    transform: scale(1.1);
+    border:0.3rem solid aqua ;
+    z-index: 99;
+    
+}
+img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.fu{
+    margin: 0;
+    height: 0;
+}
+@media(max-width:500px){
+    .huddy{
+        width:7.1em ;
+    }
+    .card_text{
+        margin-left: 8rem;
+    }
+    .hud{
+        font-size: 1.1rem;
+    }
+    .grid{
+        margin-left: 7.5rem;
+    }
+    .card_text{
+        margin-left: 6rem;
+    }
+    .ads{
+        margin-right: 2rem
+    }
+    h1{
+        margin-left: 1rem;
+    }
+    .click_tip{
+        margin-left: 1rem;
+    }
+
+}
+@media(max-width:1000px){
+    .grid{
+        grid-template-columns: repeat(auto-fit,minmax(20rem, 1fr));
+    }
+}
